@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="health_service:war">
+      <output-path>$PROJECT_DIR$/health_service/target</output-path>
+      <properties id="maven-jee-properties">
+        <options>
+          <module>health_service</module>
+          <packaging>war</packaging>
+        </options>
+      </properties>
+      <root id="archive" name="health_service-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="health_service:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="health_service:war exploded">
+      <output-path>$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT</output-path>
+      <properties id="maven-jee-properties">
+        <options>
+          <exploded>true</exploded>
+          <module>health_service</module>
+          <packaging>war</packaging>
+        </options>
+      </properties>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="health_service" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="archive" name="health_interface-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_interface" />
+            </element>
+            <element id="archive" name="health_pojo-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_pojo" />
+            </element>
+            <element id="archive" name="health_common-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_common" />
+            </element>
+            <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.4" />
+            <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+            <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+            <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
+            <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+            <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+            <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
+            <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+            <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jms:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.0" />
+            <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+            <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+            <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
+            <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+            <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+            <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+            <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+            <element id="library" level="project" name="Maven: junit:junit:4.12" />
+            <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+            <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
+            <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
+            <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" />
+            <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+            <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.03" />
+            <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
+            <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
+            <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.0" />
+            <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.3.1" />
+            <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.8.0" />
+            <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.6.2" />
+            <element id="library" level="project" name="Maven: com.qiniu:happy-dns-java:0.1.4" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.1" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.1" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.0.5.RELEASE" />
+            <element id="archive" name="health_dao-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_dao" />
+            </element>
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/health_service/target/health_service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="health_service/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="war" name="health_web:war">
+      <output-path>$PROJECT_DIR$/health_web/target</output-path>
+      <properties id="maven-jee-properties">
+        <options>
+          <module>health_web</module>
+          <packaging>war</packaging>
+        </options>
+      </properties>
+      <root id="archive" name="health_web-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="health_web:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="health_web:war exploded">
+      <output-path>$PROJECT_DIR$/health_web/target/health_web-1.0-SNAPSHOT</output-path>
+      <properties id="maven-jee-properties">
+        <options>
+          <exploded>true</exploded>
+          <module>health_web</module>
+          <packaging>war</packaging>
+        </options>
+      </properties>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="health_web" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="archive" name="health_interface-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_interface" />
+            </element>
+            <element id="archive" name="health_pojo-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_pojo" />
+            </element>
+            <element id="archive" name="health_common-1.0-SNAPSHOT.jar">
+              <element id="module-output" name="health_common" />
+            </element>
+            <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.4" />
+            <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+            <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+            <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
+            <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+            <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+            <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
+            <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+            <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jms:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.0" />
+            <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+            <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+            <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
+            <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+            <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+            <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+            <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+            <element id="library" level="project" name="Maven: junit:junit:4.12" />
+            <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+            <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
+            <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
+            <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.14" />
+            <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" />
+            <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+            <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.03" />
+            <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
+            <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
+            <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.0" />
+            <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.3.1" />
+            <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.8.0" />
+            <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.6.2" />
+            <element id="library" level="project" name="Maven: com.qiniu:happy-dns-java:0.1.4" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.1" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.1" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.0.5.RELEASE" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/health_web/target/health_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="health_web/web/Web" />
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="health_common" />
+        <module name="health_dao" />
+        <module name="health_interface" />
+        <module name="health_pojo" />
+        <module name="health_service" />
+        <module name="health_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="health_common" target="1.8" />
+      <module name="health_dao" target="1.8" />
+      <module name="health_interface" target="1.8" />
+      <module name="health_parent" target="1.8" />
+      <module name="health_pojo" target="1.8" />
+      <module name="health_service" target="1.8" />
+      <module name="health_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/health_service" />
+    <file type="web" url="file://$PROJECT_DIR$/health_web" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="Palette2">
+    <group name="Swing">
+      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+      </item>
+      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+        <initial-values>
+          <property name="text" value="Button" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="RadioButton" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="CheckBox" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="Label" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+          <preferred-size width="-1" height="20" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+      </item>
+    </group>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/health_common/health_common.iml" filepath="$PROJECT_DIR$/health_common/health_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_dao/health_dao.iml" filepath="$PROJECT_DIR$/health_dao/health_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_interface/health_interface.iml" filepath="$PROJECT_DIR$/health_interface/health_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_parent.iml" filepath="$PROJECT_DIR$/health_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_pojo/health_pojo.iml" filepath="$PROJECT_DIR$/health_pojo/health_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_service/health_service.iml" filepath="$PROJECT_DIR$/health_service/health_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/health_web/health_web.iml" filepath="$PROJECT_DIR$/health_web/health_web.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: com.alibaba:druid:1.0.9">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/druid/1.0.9/druid-1.0.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/druid/1.0.9/druid-1.0.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:dubbo:2.6.0">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/dubbo/2.6.0/dubbo-2.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/dubbo/2.6.0/dubbo-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.47">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.jsqlparser:jsqlparser:0.9.5">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/jsqlparser/jsqlparser/0.9.5/jsqlparser-0.9.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/jsqlparser/jsqlparser/0.9.5/jsqlparser-0.9.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/jsqlparser/jsqlparser/0.9.5/jsqlparser-0.9.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper:4.1.4">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/pagehelper/pagehelper/4.1.4/pagehelper-4.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/pagehelper/pagehelper/4.1.4/pagehelper-4.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/pagehelper/pagehelper/4.1.4/pagehelper-4.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.sgroschupf:zkclient:0.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/sgroschupf/zkclient/0.1/zkclient-0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/sgroschupf/zkclient/0.1/zkclient-0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.virtuald:curvesapi:1.03">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/virtuald/curvesapi/1.03/curvesapi-1.03.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/virtuald/curvesapi/1.03/curvesapi-1.03-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/virtuald/curvesapi/1.03/curvesapi-1.03-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.code.gson:gson:2.6.2">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/google/code/gson/gson/2.6.2/gson-2.6.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/google/code/gson/gson/2.6.2/gson-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.qiniu:happy-dns-java:0.1.4">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/happy-dns-java/0.1.4/happy-dns-java-0.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/happy-dns-java/0.1.4/happy-dns-java-0.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/happy-dns-java/0.1.4/happy-dns-java-0.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.qiniu:qiniu-java-sdk:7.2.0">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/qiniu-java-sdk/7.2.0/qiniu-java-sdk-7.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/qiniu-java-sdk/7.2.0/qiniu-java-sdk-7.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/qiniu/qiniu-java-sdk/7.2.0/qiniu-java-sdk-7.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.squareup.okhttp3:okhttp:3.3.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okhttp3/okhttp/3.3.1/okhttp-3.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okhttp3/okhttp/3.3.1/okhttp-3.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okhttp3/okhttp/3.3.1/okhttp-3.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.squareup.okio:okio:1.8.0">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okio/okio/1.8.0/okio-1.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okio/okio/1.8.0/okio-1.8.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okio/okio/1.8.0/okio-1.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-client:1.18.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-core:1.18.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-codec:commons-codec:1.10">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-fileupload:commons-fileupload:1.3.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-io:commons-io:2.2">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-io/commons-io/2.2/commons-io-2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-io/commons-io/2.2/commons-io-2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/commons-io/commons-io/2.2/commons-io-2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty:3.7.0.Final">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javassist:javassist:3.12.1.GA">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:servlet-api:2.5">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: jline:jline:0.9.94">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/jline/jline/0.9.94/jline-0.9.94.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/jline/jline/0.9.94/jline-0.9.94-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:4.12">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/junit/junit/4.12/junit-4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/junit/junit/4.12/junit-4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: log4j:log4j:1.2.16">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/log4j/log4j/1.2.16/log4j-1.2.16.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/log4j/log4j/1.2.16/log4j-1.2.16-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: mysql:mysql-connector-java:5.1.32">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-pool2:2.4.2">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.14">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml-schemas/3.14/poi-ooxml-schemas-3.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml-schemas/3.14/poi-ooxml-schemas-3.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml-schemas/3.14/poi-ooxml-schemas-3.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml:3.14">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi:3.14">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi/3.14/poi-3.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi/3.14/poi-3.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/poi/poi/3.14/poi-3.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.zookeeper:zookeeper:3.4.7">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.8.13">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.javassist:javassist:3.20.0-GA">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss.netty:netty:3.2.5.Final">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis-spring:1.3.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis:3.4.5">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.2">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-log4j12:1.6.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-acl:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-acl/5.0.5.RELEASE/spring-security-acl-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-acl/5.0.5.RELEASE/spring-security-acl-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-acl/5.0.5.RELEASE/spring-security-acl-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-config/5.0.5.RELEASE/spring-security-config-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-core:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-taglibs:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-taglibs/5.0.5.RELEASE/spring-security-taglibs-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-taglibs/5.0.5.RELEASE/spring-security-taglibs-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-taglibs/5.0.5.RELEASE/spring-security-taglibs-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.security:spring-security-web:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aop:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aspects:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aspects/5.0.5.RELEASE/spring-aspects-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aspects/5.0.5.RELEASE/spring-aspects-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-aspects/5.0.5.RELEASE/spring-aspects-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-beans:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context-support:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-expression:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jdbc:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jdbc/5.0.5.RELEASE/spring-jdbc-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jdbc/5.0.5.RELEASE/spring-jdbc-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jdbc/5.0.5.RELEASE/spring-jdbc-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jms:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-test:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-tx:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-tx/5.0.5.RELEASE/spring-tx-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-tx/5.0.5.RELEASE/spring-tx-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-tx/5.0.5.RELEASE/spring-tx-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-web:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: redis.clients:jedis:2.9.0">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/redis/clients/jedis/2.9.0/jedis-2.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: stax:stax-api:1.0.1">
+      <CLASSES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Maven/apache-maven-3.5.2/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
