@@ -3,9 +3,7 @@ package com.itheima.entity;
 import java.io.Serializable;
 
 /**
- * 封装返回结果
- * new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,List<T>)
- * new Result(false,MessageConstant.QUERY_CHECKITEM_FAIL)
+ * 封装返回结果, ajax, json
  */
 public class Result implements Serializable{
     private boolean flag;//执行结果，true为执行成功 false为执行失败

@@ -41,8 +41,6 @@
             <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
             <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
             <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
-            <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
             <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
             <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
             <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
@@ -59,14 +57,13 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-jms:5.0.5.RELEASE" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.0" />
             <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
             <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
             <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
             <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
             <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
@@ -75,7 +72,6 @@
             <element id="library" level="project" name="Maven: junit:junit:4.12" />
             <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
             <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
-            <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
             <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
             <element id="library" level="project" name="Maven: org.apache.poi:poi:3.14" />
             <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.14" />
@@ -90,8 +86,6 @@
             <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.8.0" />
             <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.6.2" />
             <element id="library" level="project" name="Maven: com.qiniu:happy-dns-java:0.1.4" />
-            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.1" />
-            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.1" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE" />
@@ -148,8 +142,6 @@
             <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
             <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
             <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.1" />
-            <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
             <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
             <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
             <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
@@ -166,14 +158,13 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-jms:5.0.5.RELEASE" />
-            <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.0" />
             <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
             <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
             <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
             <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
             <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
@@ -182,7 +173,6 @@
             <element id="library" level="project" name="Maven: junit:junit:4.12" />
             <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
             <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
-            <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
             <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
             <element id="library" level="project" name="Maven: org.apache.poi:poi:3.14" />
             <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.14" />
@@ -197,8 +187,6 @@
             <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.8.0" />
             <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.6.2" />
             <element id="library" level="project" name="Maven: com.qiniu:happy-dns-java:0.1.4" />
-            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.1" />
-            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.1" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.5.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE" />
@@ -444,17 +432,6 @@
         <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/jsqlparser/jsqlparser/0.9.5/jsqlparser-0.9.5-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.github.pagehelper:pagehelper:4.1.4">
       <CLASSES>
         <root url="jar://E:/Maven/apache-maven-3.5.2/com/github/pagehelper/pagehelper/4.1.4/pagehelper-4.1.4.jar!/" />
@@ -543,28 +520,6 @@
         <root url="jar://E:/Maven/apache-maven-3.5.2/com/squareup/okio/okio/1.8.0/okio-1.8.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.sun.jersey:jersey-client:1.18.1">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-client/1.18.1/jersey-client-1.18.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.sun.jersey:jersey-core:1.18.1">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/com/sun/jersey/jersey-core/1.18.1/jersey-core-1.18.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: commons-codec:commons-codec:1.10">
       <CLASSES>
         <root url="jar://E:/Maven/apache-maven-3.5.2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
@@ -607,17 +562,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Maven/apache-maven-3.5.2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: javassist:javassist:3.12.1.GA">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: javax.servlet:servlet-api:2.5">
@@ -807,15 +751,15 @@
         <root url="jar://E:/Maven/apache-maven-3.5.2/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:slf4j-api:1.7.2">
+    <library name="Maven: org.slf4j:slf4j-api:1.6.1">
       <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar!/" />
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/" />
+        <root url="jar://E:/Maven/apache-maven-3.5.2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-log4j12:1.6.1">
@@ -981,28 +925,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jdbc/5.0.5.RELEASE/spring-jdbc-5.0.5.RELEASE-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.springframework:spring-jms:5.0.5.RELEASE">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-jms/5.0.5.RELEASE/spring-jms-5.0.5.RELEASE-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE">
-      <CLASSES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://E:/Maven/apache-maven-3.5.2/org/springframework/spring-messaging/5.0.5.RELEASE/spring-messaging-5.0.5.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-test:5.0.5.RELEASE">
