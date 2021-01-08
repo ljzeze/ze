@@ -67,4 +67,7 @@ public interface CheckGroupDao {
      * @param id
      */
     void deleteById(int id);
+
+    List<CheckGroup> findAll();
+
 }

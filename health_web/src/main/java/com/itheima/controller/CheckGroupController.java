@@ -65,7 +65,7 @@ public class CheckGroupController {
     @GetMapping("/findCheckItemIdsByCheckGroupId")
     public Result findCheckItemIdsByCheckGroupId(int id){
         List<Integer> checkItemIds = checkGroupService.findCheckItemIdsByCheckGroupId(id);
-        return  new Result(true,MessageConstant.QUERY_CHECKGROUP_SUCCESS);
+        return  new Result(true,MessageConstant.QUERY_CHECKGROUP_SUCCESS,checkItemIds);
     }
 
     /**
@@ -90,4 +90,14 @@ public class CheckGroupController {
         checkGroupService.deleteById(id);
         return new Result(true,MessageConstant.DELETE_CHECKGROUP_SUCCESS);
     }
+
+    /**
+     *查询所有
+     * @return
+     */
+     @GetMapping("/findAll")
+    public Result findAll(){
+        List<CheckGroup> list = checkGroupService.findAll();
+        return new Result(true,MessageConstant.QUERY_CHECKGROUP_SUCCESS,list);
+     }
 }

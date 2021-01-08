@@ -21,7 +21,7 @@ public class CheckItemController {
      * 查询所有不分页
      * @return
      */
-    @RequestMapping(value = "/findAll",method = RequestMethod.GET)
+    @GetMapping("/findAll")
     public Result findAll(){
       List<CheckItem> list= checkItemService.findAll();
       return new Result(true, MessageConstant.QUERY_CHECKITEM_SUCCESS,list);

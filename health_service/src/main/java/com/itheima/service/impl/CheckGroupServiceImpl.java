@@ -116,7 +116,7 @@ public class CheckGroupServiceImpl implements CheckGroupService {
      */
     @Override
     @Transactional
-    public void deleteById(int id) {
+    public void deleteById(int id){
         //判断检查组是否与套餐有关联
         int count = checkGroupDao.findSetmealCountByCheckGroupId(id);
         if (count >0){
@@ -126,5 +126,14 @@ public class CheckGroupServiceImpl implements CheckGroupService {
         checkGroupDao.deleteCheckGroupCheckItem(id);
         //最后删除检查组
         checkGroupDao.deleteById(id);
+    }
+
+    /**
+     * 查询所有
+     * @return
+     */
+    @Override
+    public List<CheckGroup> findAll() {
+     return  checkGroupDao.findAll();
     }
 }
